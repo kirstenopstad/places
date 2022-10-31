@@ -43,3 +43,7 @@ Places.prototype.deleteDestination = function(id) {
   delete this.destinations[id];
   return true;
 }
+
+
+//UI LOGIC
+// Display those properties when a user clicks on a place's name.

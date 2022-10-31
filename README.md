@@ -34,11 +34,12 @@ This template includes placeholders for:
 
 ## Tests
 ```
-Describe: Places()
+Describe: assignId()
 
-Test: 
-Code: 
-Expected Output:
+Test: "It should increment by 1 to add a unique ID to each destination"
+Code: assignId()
+const currentId = 0
+Expected Output: 1
 
 Describe: Destination()
 

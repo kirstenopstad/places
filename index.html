@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Places You've Been</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Places You've Been</h1>
+    <p>Enter information about places you've traveled to see where you might want to revist or never see again.</p>
+    <div id="sidebar">
+      <!-- List of Places Will Populate Here -->
+    </div>
+    <div id="info-area">
+      <!-- Where users enter new destination info -->
+      <div>
+        <form>
+          <!-- Location -->
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="location" placeholder="Place">
+            <label for="location">Location</label>
+          </div>
+          <!-- Landmarks -->
+          <div class="form-floating">
+            <input type="text" class="form-control" id="landmark1" placeholder="Landmark">
+            <label for="landmark1">Landmark 1</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" class="form-control" id="landmark2" placeholder="Landmark">
+            <label for="landmark2">Landmark 2</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" class="form-control" id="landmark3" placeholder="Landmark">
+            <label for="landmark3">Landmark 3</label>
+          </div>
+          
+          <!-- Time of Year -->
+          <div class="form-floating">
+            <input type="text" class="form-control" id="timeOfYear" placeholder="Season">
+            <label for="timeOfYear">Time of Year</label>
+          </div>
+          <!-- Notes -->
+          <div class="form-floating">
+            <textarea type="text" class="form-control text-input" id="notes" placeholder="Note about a place."></textarea>
+            <label for="notes">Notes</label>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+      </div>
+      <!-- OR -->
+      <!-- Where destination info is presented -->
+    </div>
+  </div>
+</body>
+</html>
